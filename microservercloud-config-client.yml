@@ -1,5 +1,5 @@
 spring:
- profile:
+ profiles:
     active: dev
 ---
 
@@ -7,7 +7,7 @@ server:
   port: 8201
 
 spring:
-  profile: dev
+  profiles: dev
   application:
    name: microservicecloud-config-client
 
@@ -22,7 +22,7 @@ server:
   port: 8202
 
 spring:
-  profile: test
+  profiles: test
   application:
      name: microservicecloud-config-client
 
